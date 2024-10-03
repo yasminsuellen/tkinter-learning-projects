@@ -12,8 +12,8 @@ class TaskApp:
         self.editing_frame = None  # Initializes the variable that will store the task being edited as None
         self.configure_window()  # Configures the main window
         self.create_widgets()  # Creates and positions the interface elements
-        self.edit_icon = PhotoImage(file="edit.png").subsample(30, 30)  # Creates and configures the edit button
-        self.delete_icon = PhotoImage(file="delete.png").subsample(30, 30)  # Creates and configure the delete button
+        self.edit_icon = PhotoImage(file="edit-icon.png").subsample(30, 30)  # Creates and configures the edit button
+        self.delete_icon = PhotoImage(file="delete-icon.png").subsample(30, 30)  # Creates and configure the delete button
 
     def configure_window(self):
         self.root.title("Task App")
