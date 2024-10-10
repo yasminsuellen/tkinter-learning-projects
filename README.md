@@ -9,7 +9,8 @@ This repository showcases projects developed during my learning journey with the
 ## Installation
 To run these scripts on your local machine, you'll need to have Python and the Tkinter library installed. 
 - Download Python - [python.org](https://www.python.org/) 
-- Install Tkinter - command 'pip install tk'
+- Install Tkinter - command: pip install tk
+- Install Tkcalendar - pip install tkcalendar
 
 ## Usage
 1. Clone the repository to your local machine.
